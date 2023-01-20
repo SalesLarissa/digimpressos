@@ -1,0 +1,79 @@
+.textPink {
+    color: #F22998;
+}
+.textYellow {
+    color: #F2E74B;
+}
+.textBlue {
+    color: #05C7F2;
+}
+
+#capa {
+    width: 100%;
+    background-color: black;
+    height: 60%;
+    padding-top: 0% !important;
+
+    background-image: url("assets/banner.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    position: relative;
+    background-size: cover;
+
+}
+
+nav {
+    top: 0;
+    background: rgba(0, 0, 0, 0.11);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.nav_img {
+    max-width: 05%;
+    padding-left: 01%;
+}
+
+nav img {
+    max-width: 100%;
+
+}
+
+#banner_logoMarca {
+    float: right;
+}
+
+/*SOBRE*/
+#sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    padding-right: 16px;
+    padding-top: 01%;
+    height: auto;
+    align-items: center;
+
+}
+
+.sobre_imagem {
+    width: 40%;
+    background-image: url("assets/sobreImpre.jpg");
+    min-height: 300px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobre_txtContent {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    width: 50%;
+    padding: 02%;
+}
+
